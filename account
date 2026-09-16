@@ -1,0 +1,81 @@
+using System;
+using System.Configuration;
+using System.Web.Mvc;
+using System.Web.Security;
+using VoicebotBillingMIS.Data.Repositories;
+using VoicebotBillingMIS.Models;
+
+namespace VoicebotBillingMIS.Controllers
+{
+    public class AccountController : Controller
+    {
+        [AllowAnonymous]
+        [HttpGet]
+        public ActionResult Login(string returnUrl)
+        {
+            if (Request.IsAuthenticated)
+            {
+                ResetUsageSession();
+                return RedirectToLocal(returnUrl);
+            }
+
+            ViewBag.ReturnUrl = returnUrl;
+            return View(new LoginViewModel());
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Login(LoginViewModel model, string returnUrl)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewBag.ReturnUrl = returnUrl;
+                return View(model);
+            }
+
+            // Replace this configuration lookup with the employee repository/database query.
+            var configuredEmployeeId = ConfigurationManager.AppSettings["Login:EmployeeId"];
+            var configuredPassword = ConfigurationManager.AppSettings["Login:Password"];
+            var isValid = string.Equals(model.EmployeeId, configuredEmployeeId, StringComparison.OrdinalIgnoreCase)
+                          && string.Equals(model.Password, configuredPassword, StringComparison.Ordinal);
+
+            if (!isValid)
+            {
+                ModelState.AddModelError(string.Empty, "The Employee ID or password is incorrect.");
+                ViewBag.ReturnUrl = returnUrl;
+                return View(model);
+            }
+
+            FormsAuthentication.SetAuthCookie(model.EmployeeId.Trim(), model.RememberMe);
+            ResetUsageSession();
+            return RedirectToLocal(returnUrl);
+        }
+
+        [Authorize]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            ResetUsageSession();
+            return RedirectToAction("Login", "Account");
+        }
+
+        private void ResetUsageSession()
+        {
+            Session.Remove(PageStateKeys.UsagePageState);
+            SqlUsageRepository.ClearUsageCache();
+        }
+
+        private ActionResult RedirectToLocal(string returnUrl)
+        {
+            if (!string.IsNullOrWhiteSpace(returnUrl) && Url.IsLocalUrl(returnUrl))
+            {
+                return Redirect(returnUrl);
+            }
+
+            return RedirectToAction("Index", "Usage");
+        }
+    }
+}
