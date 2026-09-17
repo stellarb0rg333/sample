@@ -1017,8 +1017,17 @@ sit on a single row instead of wrapping.
     white-space: nowrap;
 }
 
-    /* Final Usage results table overrides. The header and scrolling body are
-       separate fixed-layout tables, so both copies need explicit widths. */
+    /* Final Usage table contract. The header and scrolling body are separate
+       fixed-layout table boxes, so every visible column gets an explicit width. */
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table {
+        table-layout: fixed !important;
+    }
+
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th,
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td {
+        box-sizing: border-box !important;
+    }
+
     .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(1),
     .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(1) {
         width: 18% !important;
@@ -1029,9 +1038,57 @@ sit on a single row instead of wrapping.
         width: 12% !important;
     }
 
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(3),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(3) {
+        width: 6% !important;
+    }
+
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(4),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(4) {
+        width: 7% !important;
+    }
+
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(5),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(5),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(6),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(6),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(7),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(7),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(8),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(8),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(9),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(9) {
+        width: 6% !important;
+    }
+
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(10),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(10) {
+        display: none !important;
+        width: 0 !important;
+    }
+
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(11),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(11) {
+        width: 7% !important;
+    }
+
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(12),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(12) {
+        width: 9% !important;
+    }
+
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(13),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(13) {
+        width: 5% !important;
+    }
+
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(14),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(14) {
+        width: 6% !important;
+    }
+
     .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(1) {
         display: table-cell !important;
-        box-sizing: border-box;
         padding-top: 0.55rem !important;
         padding-bottom: 0.55rem !important;
         line-height: 1.2 !important;
@@ -1045,11 +1102,12 @@ sit on a single row instead of wrapping.
     }
 
     .voicebot-card > .voicebot-filter-grid {
-        margin-bottom: 0.45rem !important;
+        margin-bottom: 0 !important;
     }
 
     .voicebot-card .usage-results-block .usage-grand-summary {
-        margin-bottom: 0.35rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 0.2rem !important;
     }
 
 /* ── Vendor Rates page ────────────────────────────────────── */
