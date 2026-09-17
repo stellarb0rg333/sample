@@ -1,0 +1,102 @@
+The type 'UploadLead' already contains a definition for 'lblMessage'
+The type 'UploadLead' already contains a definition for 'FileUpload1'
+The type 'UploadLead' already contains a definition for 'btnUpload'
+Ambiguity between 'UploadLead.FileUpload1' and 'UploadLead.FileUpload1'
+Ambiguity between 'UploadLead.FileUpload1' and 'UploadLead.FileUpload1'
+Ambiguity between 'UploadLead.FileUpload1' and 'UploadLead.FileUpload1'
+Ambiguity between 'UploadLead.lblMessage' and 'UploadLead.lblMessage'
+Ambiguity between 'UploadLead.lblMessage' and 'UploadLead.lblMessage'
+Ambiguity between 'UploadLead.lblMessage' and 'UploadLead.lblMessage'
+Ambiguity between 'UploadLead.lblMessage' and 'UploadLead.lblMessage'
+Ambiguity between 'UploadLead.lblMessage' and 'UploadLead.lblMessage'
+Ambiguity between 'UploadLead.lblMessage' and 'UploadLead.lblMessage'
+Unable to update auto-refresh reference 'genesyslab.core.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Core.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.agent.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Agent.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.core.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Core.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.exceptions.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Exceptions.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.extensions.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Extensions.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.framework.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Framework.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.framework.statemachine.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Framework.StateMachine.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.interaction.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Interaction.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.logger.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Logger.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.model.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Model.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.performancecounters.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.PerformanceCounters.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.psdkextensions.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.PSDKExtensions.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.services.callback.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Services.Callback.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.services.common.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Services.Common.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.services.contact.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Services.Contact.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.services.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Services.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.services.multimedia.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Services.Multimedia.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.services.multimedia.email.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Services.Multimedia.Email.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.services.outbound.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Services.Outbound.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.services.presence.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Services.Presence.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.switchabstraction.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.SwitchAbstraction.dll'.
+Unable to update auto-refresh reference 'genesyslab.enterprise.utility.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Enterprise.Utility.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.applicationblocks.commons.broker.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.ApplicationBlocks.Commons.Broker.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.applicationblocks.commons.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.ApplicationBlocks.Commons.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.applicationblocks.commons.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.ApplicationBlocks.Commons.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.applicationblocks.configurationobjectmodel.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.ApplicationBlocks.ConfigurationObjectModel.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.applicationblocks.sipendpoint.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.ApplicationBlocks.SipEndpoint.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.applicationblocks.warmstandby.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.ApplicationBlocks.WarmStandby.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.apptemplate.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.AppTemplate.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.commons.collections.binding.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Commons.Collections.Binding.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.commons.collections.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Commons.Collections.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.commons.connection.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Commons.Connection.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.commons.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Commons.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.commons.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Commons.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.configuration.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Configuration.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.contacts.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Contacts.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.json.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Json.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.logging.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Logging.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.management.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Management.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.openmedia.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.OpenMedia.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.outbound.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Outbound.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.reporting.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Reporting.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.routing.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Routing.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.switchpolicy.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.SwitchPolicy.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.voice.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.Voice.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.webmedia.protocols.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.WebMedia.Protocols.dll'.
+Unable to update auto-refresh reference 'genesyslab.platform.webmedia.protocols.espemail.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Genesyslab.Platform.WebMedia.Protocols.EspEmail.dll'.
+Unable to update auto-refresh reference 'interop.wmplib.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Interop.WMPLib.dll'.
+Unable to update auto-refresh reference 'log4net.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\log4net.dll'.
+Unable to update auto-refresh reference 'microsoft.office.interop.excel.dll'. Cannot find assembly 'C:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll'.
+Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.common.dll'. Cannot find assembly 'D:\CSI_Applications\Piramal Winter Intern\Gaurav\IvrWebService\IVRWebServiceUAT\YesBank\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll'.
+Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.data.dll'. Cannot find assembly 'D:\CSI_Applications\Piramal Winter Intern\Gaurav\IvrWebService\IVRWebServiceUAT\YesBank\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll'.
+Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.logging.dll'. Cannot find assembly 'D:\CSI_Applications\Piramal Winter Intern\Gaurav\IvrWebService\IVRWebServiceUAT\YesBank\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll'.
+Unable to update auto-refresh reference 'microsoft.practices.servicelocation.dll'. Cannot find assembly 'D:\CSI_Applications\Piramal Winter Intern\Gaurav\IvrWebService\IVRWebServiceUAT\YesBank\bin\Microsoft.Practices.ServiceLocation.dll'.
+Unable to update auto-refresh reference 'microsoft.practices.unity.dll'. Cannot find assembly 'D:\CSI_Applications\Piramal Winter Intern\Gaurav\IvrWebService\IVRWebServiceUAT\YesBank\bin\Microsoft.Practices.Unity.dll'.
+Unable to update auto-refresh reference 'microsoft.practices.unity.interception.dll'. Cannot find assembly 'D:\CSI_Applications\Piramal Winter Intern\Gaurav\IvrWebService\IVRWebServiceUAT\YesBank\bin\Microsoft.Practices.Unity.Interception.dll'.
+Unable to update auto-refresh reference 'microsoft.web.infrastructure.dll'. Cannot find assembly 'D:\CSI_Applications\Piramal Winter Intern\Gaurav\IvrWebService\IVRWebServiceUAT\YesBank\bin\Microsoft.Web.Infrastructure.dll'.
+Unable to update auto-refresh reference 'newtonsoft.json.dll'. Cannot find assembly 'D:\CSI_Applications\Piramal Winter Intern\Gaurav\IvrWebService\IVRWebServiceUAT\YesBank\bin\Newtonsoft.Json.dll'.
+Unable to update auto-refresh reference 'oracle.manageddataaccess.dll'. Cannot find assembly 'C:\Users\MPC0006363\Desktop\AkshayPatil\28-03-2018 - AutoUpdate\AgentToolBar\bin\Debug\Oracle.ManagedDataAccess.dll'.
+Package 'Npgsql' 3.2.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c
+Package 'Microsoft.Owin' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-hxrm-9w7p-39cc
+Package 'Microsoft.Owin' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-3rq8-h3gj-r5c6
+Naming rule violation: These words must begin with upper case characters: btnUpload_Click
+Could not find schema information for the element 'log4net'.
+Could not find schema information for the element 'root'.
+Could not find schema information for the element 'level'.
+Could not find schema information for the attribute 'value'.
+Could not find schema information for the element 'appender-ref'.
+Could not find schema information for the attribute 'ref'.
+Could not find schema information for the element 'appender'.
+Could not find schema information for the attribute 'name'.
+Could not find schema information for the attribute 'type'.
+Could not find schema information for the element 'param'.
+Could not find schema information for the attribute 'name'.
+Could not find schema information for the attribute 'value'.
+Could not find schema information for the element 'param'.
+Could not find schema information for the attribute 'name'.
+Could not find schema information for the attribute 'value'.
+Could not find schema information for the element 'rollingStyle'.
+Could not find schema information for the attribute 'value'.
+Could not find schema information for the element 'datePattern'.
+Could not find schema information for the attribute 'value'.
+Could not find schema information for the element 'staticLogFileName'.
+Could not find schema information for the attribute 'value'.
+Could not find schema information for the element 'layout'.
+Could not find schema information for the attribute 'type'.
+Could not find schema information for the element 'param'.
+Could not find schema information for the attribute 'name'.
+Could not find schema information for the attribute 'value'.
