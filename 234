@@ -1,0 +1,63 @@
+using System;
+using System.IO;
+
+public partial class UploadLead : System.Web.UI.Page
+{
+    // These lines force C# to recognize your HTML controls, fixing the "does not exist" errors.
+    protected global::System.Web.UI.WebControls.Label lblMessage;
+    protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+    protected global::System.Web.UI.WebControls.Button btnUpload;
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        // Keep your session check here if you still need it
+        /*
+        if (Session["UserName"] == null)
+        {
+            Response.Redirect("Login.aspx", false);
+            return;
+        }
+        */
+    }
+
+    protected void btnUpload_Click(object sender, EventArgs e)
+    {
+        // 1. Check if the user selected a file
+        if (FileUpload1.HasFile)
+        {
+            try
+            {
+                // 2. Define where on the server the file should be saved
+                string folderPath = @"D:\Uploaded_Files\";
+
+                // Create the directory if it doesn't exist
+                if (!Directory.Exists(folderPath))
+                {
+                    Directory.CreateDirectory(folderPath);
+                }
+
+                // 3. Get the original file name and combine it with the folder path
+                string fileName = Path.GetFileName(FileUpload1.PostedFile.FileName);
+                string savePath = Path.Combine(folderPath, fileName);
+
+                // 4. Save the file to the server's hard drive
+                FileUpload1.SaveAs(savePath);
+
+                // 5. Show success message (Note the capital 'T' in Text)
+                lblMessage.Text = "File '" + fileName + "' uploaded successfully!";
+                lblMessage.ForeColor = System.Drawing.Color.Green;
+            }
+            catch (Exception ex) // 'ex' is properly declared here so it can be used below
+            {
+                // Show error if folder permissions are missing or disk is full
+                lblMessage.Text = "Upload failed: " + ex.Message;
+                lblMessage.ForeColor = System.Drawing.Color.Red;
+            }
+        }
+        else
+        {
+            lblMessage.Text = "Please select a file to upload.";
+            lblMessage.ForeColor = System.Drawing.Color.Red;
+        }
+    }
+}
